@@ -1,2 +1,1 @@
-# Resolu-o-quest-o-OCI
-resolução da questão "Vamos Minerar!"
+Resolução: Uma possível solução para essa questão é percorrer a matriz inteira fazendo uma busca em profundidade (ou em largura) para cada jazida, procurando por minérios adjacentes do mesmo tipo que o minério inicial da busca, salvando o total de minérios encontrados na jazida e armazenando esse valor (e o tipo) caso ele seja o maior encontrado até então. Na busca, é preciso marcar os espaços já contados para não haver buscas repetidas na mesma jazida. Também será necessária uma função simples para retornar um valor numérico correspondente à raridade (prioridade) do minério, para que seja feito o desempate.
